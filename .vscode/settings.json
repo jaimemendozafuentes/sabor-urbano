@@ -1,0 +1,7 @@
+{
+  "git.ignoreLimitWarning": true,
+  "css.validate": false,
+  "tailwindCSS.includeLanguages": {
+    "css": "html"
+  }
+}

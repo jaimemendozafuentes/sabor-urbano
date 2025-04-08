@@ -1,0 +1,190 @@
+<section class="bg-white py-20 px-4">
+  <div class="max-w-6xl mx-auto text-center mb-16">
+    <h2 class="text-4xl font-serif font-bold text-[#3e2c1c] relative inline-block pb-2 border-b-4 border-[#d4a373]">
+      Nuestra carta destacada
+    </h2>
+    <p class="text-[#7b5e42] mt-4 text-lg font-sans">
+      Descubre nuestros platos estrella, preparados con ingredientes frescos y pasión.
+    </p>
+  </div>
+
+  <div class="grid gap-10 md:grid-cols-3">
+    <!-- Plato 1 -->
+    <div (click)="abrirModal({
+      nombre: 'Tartar de salmón',
+      descripcion: 'Salmón marinado con aguacate y toques cítricos',
+      precio: '14,90 €',
+      imagen: 'https://images.unsplash.com/photo-1607205829692-44382aa7c391?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3',
+      detalles: 'Salmón fresco del Atlántico, marinado con lima, soja y un toque de jengibre. Acompañado de guacamole casero.'
+    })"
+    class="bg-[#fefae0] p-6 rounded-2xl shadow-md hover:-translate-y-2 transition transform hover:shadow-xl cursor-pointer animate-on-scroll">
+      <img src="https://images.unsplash.com/photo-1607205829692-44382aa7c391?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Tartar de salmón" class="rounded-lg mb-4 w-full h-48 object-cover">
+      <h3 class="text-2xl font-semibold text-[#3e2c1c] font-serif">Tartar de salmón</h3>
+      <p class="text-[#7b5e42] mt-2 font-sans text-sm">Salmón marinado con aguacate y toques cítricos</p>
+      <p class="font-bold text-[#d4a373] mt-3 text-right">14,90 €</p>
+    </div>
+
+    <!-- Plato 2 -->
+    <div (click)="abrirModal({
+      nombre: 'Tagliatelle al pesto',
+      descripcion: 'Pasta fresca con pesto casero de albahaca y piñones',
+      precio: '12,50 €',
+      imagen: 'https://plus.unsplash.com/premium_photo-1681826354195-295f2d767779?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3',
+      detalles: 'Elaborados a diario. Servidos con queso Parmesano Reggiano rallado en el momento.'
+    })"
+    class="bg-[#fefae0] p-6 rounded-2xl shadow-md hover:-translate-y-2 transition transform hover:shadow-xl cursor-pointer animate-on-scroll">
+      <img src="https://plus.unsplash.com/premium_photo-1681826354195-295f2d767779?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Tagliatelle al pesto" class="rounded-lg mb-4 w-full h-48 object-cover">
+      <h3 class="text-2xl font-semibold text-[#3e2c1c] font-serif">Tagliatelle al pesto</h3>
+      <p class="text-[#7b5e42] mt-2 font-sans text-sm">Pasta fresca con pesto casero de albahaca y piñones</p>
+      <p class="font-bold text-[#d4a373] mt-3 text-right">12,50 €</p>
+    </div>
+
+    <!-- Plato 3 -->
+    <div (click)="abrirModal({
+      nombre: 'Entrecot madurado',
+      descripcion: 'Corte premium con guarnición de patatas trufadas',
+      precio: '19,80 €',
+      imagen: 'https://plus.unsplash.com/premium_photo-1723921294950-8d993a9330f8?q=80&w=2032&auto=format&fit=crop&ixlib=rb-4.0.3',
+      detalles: 'Entrecot de vaca vieja madurada 45 días. Servido con patatas trufadas y salsa de pimienta.'
+    })"
+    class="bg-[#fefae0] p-6 rounded-2xl shadow-md hover:-translate-y-2 transition transform hover:shadow-xl cursor-pointer animate-on-scroll">
+      <img src="https://plus.unsplash.com/premium_photo-1723921294950-8d993a9330f8?q=80&w=2032&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Entrecot madurado" class="rounded-lg mb-4 w-full h-48 object-cover">
+      <h3 class="text-2xl font-semibold text-[#3e2c1c] font-serif">Entrecot madurado</h3>
+      <p class="text-[#7b5e42] mt-2 font-sans text-sm">Corte premium con guarnición de patatas trufadas</p>
+      <p class="font-bold text-[#d4a373] mt-3 text-right">19,80 €</p>
+    </div>
+
+    <!-- Plato 4 -->
+    <div (click)="abrirModal({
+      nombre: 'Risotto de setas',
+      descripcion: 'Cremoso risotto con boletus y parmesano',
+      precio: '13,20 €',
+      imagen: 'https://images.unsplash.com/photo-1553621042-f6e147245754?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3',
+      detalles: 'Cocinado al momento con arroz arborio, boletus, parmesano y toque de trufa blanca.'
+    })"
+    class="bg-[#fefae0] p-6 rounded-2xl shadow-md hover:-translate-y-2 transition transform hover:shadow-xl cursor-pointer animate-on-scroll">
+      <img src="https://images.unsplash.com/photo-1553621042-f6e147245754?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Risotto de setas" class="rounded-lg mb-4 w-full h-48 object-cover">
+      <h3 class="text-2xl font-semibold text-[#3e2c1c] font-serif">Risotto de setas</h3>
+      <p class="text-[#7b5e42] mt-2 font-sans text-sm">Cremoso risotto con boletus y parmesano</p>
+      <p class="font-bold text-[#d4a373] mt-3 text-right">13,20 €</p>
+    </div>
+
+    <!-- Plato 5 -->
+    <div (click)="abrirModal({
+      nombre: 'Hamburguesa gourmet',
+      descripcion: 'Carne madurada, cheddar ahumado y pan artesanal',
+      precio: '11,90 €',
+      imagen: 'https://images.unsplash.com/photo-1606787366850-de6330128bfc?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3',
+      detalles: '200g de carne madurada a la parrilla, bacon crujiente y cebolla caramelizada. Acompañada de patatas.'
+    })"
+    class="bg-[#fefae0] p-6 rounded-2xl shadow-md hover:-translate-y-2 transition transform hover:shadow-xl cursor-pointer animate-on-scroll">
+      <img src="https://images.unsplash.com/photo-1606787366850-de6330128bfc?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Hamburguesa gourmet" class="rounded-lg mb-4 w-full h-48 object-cover">
+      <h3 class="text-2xl font-semibold text-[#3e2c1c] font-serif">Hamburguesa gourmet</h3>
+      <p class="text-[#7b5e42] mt-2 font-sans text-sm">Carne madurada, cheddar ahumado y pan artesanal</p>
+      <p class="font-bold text-[#d4a373] mt-3 text-right">11,90 €</p>
+    </div>
+
+    <!-- Plato 6 -->
+    <div (click)="abrirModal({
+      nombre: 'Pulpo a la brasa',
+      descripcion: 'Pulpo tierno sobre parmentier de patata trufada',
+      precio: '18,70 €',
+      imagen: 'https://images.unsplash.com/photo-1562967916-eb82221dfb36?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3',
+      detalles: 'Pulpo gallego a la brasa con alioli suave, sobre crema de patata trufada. Delicado y sabroso.'
+    })"
+    class="bg-[#fefae0] p-6 rounded-2xl shadow-md hover:-translate-y-2 transition transform hover:shadow-xl cursor-pointer animate-on-scroll">
+      <img src="https://plus.unsplash.com/premium_photo-1719530305924-74a0118c0b7f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pulpo a la brasa" class="rounded-lg mb-4 w-full h-48 object-cover">
+      <h3 class="text-2xl font-semibold text-[#3e2c1c] font-serif">Pulpo a la brasa</h3>
+      <p class="text-[#7b5e42] mt-2 font-sans text-sm">Pulpo tierno sobre parmentier de patata trufada</p>
+      <p class="font-bold text-[#d4a373] mt-3 text-right">18,70 €</p>
+    </div>
+  </div>
+
+  <!-- Modal -->
+<div *ngIf="selectedPlato" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+  <div class="bg-white rounded-xl max-w-md w-full p-6 relative modal-enter">
+    <button (click)="cerrarModal()" class="absolute top-3 right-4 text-2xl text-gray-500 hover:text-gray-700">&times;</button>
+
+    <img [src]="selectedPlato.imagen" alt="{{ selectedPlato.nombre }}" class="rounded-xl mb-4 w-full h-60 object-cover">
+
+    <h2 class="text-2xl font-bold text-[#3e2c1c] font-serif">{{ selectedPlato.nombre }}</h2>
+    <p class="text-[#7b5e42] mt-2 font-sans text-sm">{{ selectedPlato.descripcion }}</p>
+    <p class="text-[#3e2c1c] mt-4 text-sm italic">{{ selectedPlato.detalles }}</p>
+    <p class="font-bold text-[#d4a373] mt-4 text-right text-lg">{{ selectedPlato.precio }}</p>
+  </div>
+</div>
+
+
+</section>
+
+<section class="bg-[#fefae0] py-20 px-4">
+  <div class="max-w-4xl mx-auto text-center mb-12">
+    <h2 class="text-3xl font-serif font-bold text-[#3e2c1c] border-b-4 border-[#d4a373] inline-block pb-2">
+      Opiniones de nuestros clientes
+    </h2>
+    <p class="text-[#7b5e42] mt-4 text-lg font-sans">
+      Lo que dicen de nosotros habla más que mil palabras.
+    </p>
+  </div>
+
+  <div class="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto">
+    <!-- Opinión 1 -->
+    <div class="bg-white rounded-xl shadow p-6 animate-on-scroll">
+      <p class="text-[#3e2c1c] italic">“Una experiencia maravillosa. El pulpo a la brasa es una obra de arte.”</p>
+      <div class="mt-4 text-[#d4a373] text-xl">★★★★★</div>
+      <p class="text-[#7b5e42] text-sm mt-2">– Laura G.</p>
+    </div>
+
+    <!-- Opinión 2 -->
+    <div class="bg-white rounded-xl shadow p-6 animate-on-scroll">
+      <p class="text-[#3e2c1c] italic">“Ambiente cálido, platos exquisitos y atención impecable. Volveré.”</p>
+      <div class="mt-4 text-[#d4a373] text-xl">★★★★★</div>
+      <p class="text-[#7b5e42] text-sm mt-2">– Carlos M.</p>
+    </div>
+
+    <!-- Opinión 3 -->
+    <div class="bg-white rounded-xl shadow p-6 animate-on-scroll">
+      <p class="text-[#3e2c1c] italic">“Reservé para una cita especial y superó todas las expectativas.”</p>
+      <div class="mt-4 text-[#d4a373] text-xl">★★★★★</div>
+      <p class="text-[#7b5e42] text-sm mt-2">– Ana P.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-white py-20 px-4">
+  <div class="max-w-3xl mx-auto text-center mb-12">
+    <h2 class="text-3xl font-serif font-bold text-[#3e2c1c] border-b-4 border-[#d4a373] inline-block pb-2">
+      Contacta con nosotros
+    </h2>
+    <p class="text-[#7b5e42] mt-4 text-lg font-sans">
+      ¿Tienes alguna duda o quieres reservar? Escríbenos.
+    </p>
+  </div>
+
+  <form class="max-w-2xl mx-auto bg-[#fefae0] p-8 rounded-xl shadow animate-on-scroll">
+    <div class="mb-4">
+      <label class="block text-left text-[#3e2c1c] font-medium mb-1">Nombre</label>
+      <input type="text" placeholder="Tu nombre"
+        class="w-full px-4 py-3 rounded-lg border border-[#d4a373] focus:outline-none focus:ring-2 focus:ring-[#d4a373]" />
+    </div>
+    <div class="mb-4">
+      <label class="block text-left text-[#3e2c1c] font-medium mb-1">Email</label>
+      <input type="email" placeholder="tucorreo@ejemplo.com"
+        class="w-full px-4 py-3 rounded-lg border border-[#d4a373] focus:outline-none focus:ring-2 focus:ring-[#d4a373]" />
+    </div>
+    <div class="mb-4">
+      <label class="block text-left text-[#3e2c1c] font-medium mb-1">Mensaje</label>
+      <textarea rows="5" placeholder="Escribe tu mensaje"
+        class="w-full px-4 py-3 rounded-lg border border-[#d4a373] focus:outline-none focus:ring-2 focus:ring-[#d4a373] resize-none"></textarea>
+    </div>
+    <button type="submit"
+      class="bg-[#d4a373] text-white px-6 py-3 rounded-full shadow hover:bg-[#c58d63] transition">
+      Enviar mensaje
+    </button>
+  </form>
+</section>
+
+<app-footer></app-footer>
+
+
+
